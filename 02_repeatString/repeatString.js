@@ -1,4 +1,9 @@
-const repeatString = function() {
+const repeatString = function(thing, times) {
+    let answer = "";
+    for(let i = 0; i < times; i++){
+        answer += thing;
+    }
+    return answer;
 
 };
 
